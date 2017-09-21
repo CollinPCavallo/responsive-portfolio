@@ -1,0 +1,209 @@
+body{
+	background-image: url(../images/skyscraper.png);
+	font-size: 17px;
+	overflow: auto;
+	width: 100%;
+	border: 2px
+}
+
+h1{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 490px;
+	margin-left: 300px;
+	width:250px;
+	float:left;
+	text-align: center;
+	vertical-align: middle;
+	height: 60px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-top: 30px;
+
+}
+
+.header{
+	height: 90px;
+	background-color:#ffffff;
+	border-bottom: 3px solid #dddddd;
+	width: 100%;
+}
+
+a:link{
+	color: #777777;
+}
+a:visited{
+	color: #777777;
+}
+.navlinks{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: relative;
+	top: 35px;
+	right: 60px;
+	text-align: right;
+	float: left;
+	height: 80px;
+	width: 280px;
+	color: #777777;
+
+}
+
+.maincontent{
+	border: 1px solid #dddddd;
+	line-height: 1.8;
+	float: left;
+	width: 650px;
+	margin: 40px 40px 120px 156px;
+	background-color: white;
+	overflow: hidden;
+}
+
+
+footer{
+	height: 80px;
+	content: "";
+	display: block;
+	clear: both;
+	text-align: center;
+	background-color: #666666;
+	border-top: 4px solid #4aaaa5;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+}
+.maincontent{
+	text-align: left;
+	font-style: arial;
+	margin-left: 300px;
+}
+h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-left: 25px;
+	font-size: 25px;
+	border-bottom: #dddddd solid 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #4aaaa5;
+	padding: 15px 0px 15px 0px;
+	font-weight: bold;
+
+
+}
+.connect{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: white;
+	float: left;
+	border: 1px solid #dddddd;
+	width: 270px;
+	margin-top: 40px;
+	color: #4aaaa5;
+	text-align: center;
+	height: 175px;
+}
+h3{
+	border-bottom: #dddddd solid 2px;
+	padding-top: 25px;
+	padding-bottom: 25px; 
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0px 10px 0px 10px;
+}
+.profile{
+	position: relative;
+	left: 25px;
+}
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #777777;
+	position: relative;
+	bottom: 15px;
+	line-height: 40px;
+}
+h4{
+	position: relative;
+	top: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 15px;
+}
+.icons{
+	margin: 10px 0px 10px 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.profile{
+	padding-top: 15px;
+}
+input[type="text"], input[type="message"]{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 90.5%;
+	padding-left: 20px;
+	margin-left: 20px;
+	border: 2px solid #dddddd;
+	padding: 5px 0px 5px 0px;
+}
+input[type="message"]{
+	padding-bottom: 100px;
+	word-wrap: inherit;
+	width: 90.5%;
+}
+p, .formText{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+input[type="Submit"]{
+	background-color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-left: 20px;
+	border: 1px solid #dddddd;
+	font-size: 15px;
+	padding: 10px 20px;
+	position: relative;
+	bottom: 20px;
+}
+.portimg{
+	padding: 20px;
+	margin-left: 20px;
+}
+.wraper{
+	overflow: auto;
+}
+.hang{
+	position: absolute;
+	left: 341px;
+	top: 325px;
+}
+.rpg{
+	position: absolute;
+	top: 325px;
+	right: 614px;
+}
+.trivia{
+	position: absolute;
+	left: 341px;
+	top: 551px;
+}
+.widget{
+	position: absolute;
+	right: 614px;
+	top: 551px;
+}
+.rock{
+	position: absolute;
+	left: 341px;
+	top: 775px;
+}
+.trivia, .widget, .rock, .hang, .rpg{
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	width: 220px;
+	text-align: center;
+	height: 35px;
+	font-size: 20px;
+}
