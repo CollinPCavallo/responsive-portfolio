@@ -183,6 +183,8 @@ input[type="Submit"]{
 	left: 30px;
 	bottom: 95px;
 	text-align: center;
+	color: white;
+	font-size: 25px;
 }
 .work{
 	float: left;
