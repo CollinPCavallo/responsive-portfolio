@@ -267,7 +267,6 @@ input[type="Submit"]{
 
 		}
 		h3{
-			width: 100%;
 			text-align: left;
 			margin-left: 30px;
 			margin-right: 75px;
@@ -318,8 +317,10 @@ input[type="Submit"]{
 
 	}
 	@media only screen and (max-width: 640px) {
+		.header{
+			width: 100%
+		}
 		h1{
-			width: 100%;
 			margin-left: 0px;
 			float: left;
 		}
@@ -344,7 +345,10 @@ input[type="Submit"]{
 		}
 		.connect{
 			width: 95%;
+			position: relative;
+			bottom: 125px;
 			margin-left: 15px;
+
 		}
 		footer{
 			width: 100%;
