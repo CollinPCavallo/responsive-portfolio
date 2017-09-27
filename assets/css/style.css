@@ -323,6 +323,7 @@ input[type="Submit"]{
 		h1{
 			margin-left: 0px;
 			float: left;
+			width: 100%;
 		}
 		.navlinks{
 			width: 100%;
