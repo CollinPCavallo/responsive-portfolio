@@ -357,23 +357,22 @@ input[type="Submit"]{
 			width: 100%;
 			margin-left: 0px
 		}
-		.portimg{
-			margin: 35px;
-			width: 100%;
-		}
 
 		.port{
 			background-color: #4aaaa5;
 			position: relative;
 			bottom: 150px;
-			left: 35px;
 			text-align: center;
 			font-family: 'Georgia', Times, Times New Roman, serif;
 			padding-top: 20px;
 			padding-bottom: 20px;
-			width: 100%;
+			width: 95%;
 			color: white;
 			font-size: 30px;
+		}
+		.work{
+			width: 85%;
+			margin-left: 50px;
 		}
 
 }
